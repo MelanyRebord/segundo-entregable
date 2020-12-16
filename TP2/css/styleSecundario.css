@@ -1,0 +1,204 @@
+* {
+   overflow-x: hidden;
+} 
+
+.Container-global {
+   width: 100%;
+}
+ .carousel {
+    width: 43%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+ }
+ .texto-alineado-centro {
+ text-align: center;
+ }
+ div h1 {
+    font-size: 60px;
+    color: rgb(3, 3, 3);
+    font-family: "Raleway", sans-serif;
+    margin-top: 3%;
+   text-align: center;
+ }
+ .card-ubicacion {
+    margin-bottom: 3%;
+    margin-top: 4%; 
+ }
+ div h3 {
+    text-align: center
+ }
+ 
+h1.especial {
+   margin: auto;
+   margin-top: 50px;
+   font-size: 48px;
+   font-family: 'Lucida Sans';
+   color: brown;
+}
+.fondo {
+   background-color:  rgb(250, 233, 245); 
+   width: 100%;
+   height: 90px;
+   overflow: hidden;
+}
+ 
+ 
+ .img {
+    margin-top: 10%;
+    margin-left: 5%;
+   
+ }
+.image{
+   margin-left: 10%;
+}
+ .sub-title {
+    text-align: center;
+    color: black;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 50px;
+   
+ }
+ .title { 
+   font-size: 90px;
+   color: rgb(206, 240, 179);
+   color: black;
+   font-family: cursive;
+   margin-top: 15%;
+   margin-bottom: 10%;
+   margin-right: 12.5%;
+   
+ }
+ .container {
+   width: 110%;
+   background-color: white;
+   margin-left: 9%;
+   margin-right: 21%;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+ .containersecundario {
+    width: 100%;
+    display: inline;
+    flex-flow: row wrap;
+    justify-content: space-between;
+ } 
+ .parrafo {
+    margin-left: 4%;
+    margin-right: 4%;
+    color: #2b2b2b;
+    font-family: "Raleway", Sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-top: 3%;
+    text-align: center;
+ }
+ 
+ .footer {
+  background-color: rgb(250, 233, 245); 
+   width: 100%;
+   height: 90px;
+}
+p.especial {
+   font-family: nunito-sans, sans-serif;
+   font-size: 14px;
+   color: black;
+}
+
+ 
+ .text-new_collection p {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: large;
+ }
+ 
+ .text-new_collection p>strong {
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: 600;
+   font-size: large;
+ }
+ 
+ h2.text-new_collection {
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: 600;
+   margin-bottom: 1rem;
+   font-size: large;
+ }
+ 
+ p.text-new_collection em {
+   font-family: 'Cormorant Garamond', serif;
+   font-size: large;
+ }
+ 
+ p.text-new_collection a {
+   font-family: 'Cormorant Garamond', serif;
+   text-decoration: underline;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   -ms-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   font-size: large;
+ }
+ 
+ 
+ /* Background-colors */
+ .bg-color-grey {
+     background-color: rgb(216, 214, 214);
+  }
+  
+  .bg-color-green {
+     background-color: rgb(24, 42, 24);
+  }
+  
+  .bg-color-blue {
+     background-color: blue;
+  }
+  
+  .bg-color-red {
+     background-color: red;
+  }
+  
+  .bg-color-purple {
+     background-color: purple;
+  }
+  
+  .bg-color-orange {
+     background-color: orange;
+  }
+  
+  .bg-color-brown {
+     background-color: brown;
+  }
+  
+  .bg-color-yellow {
+     background-color: rgb(250, 250, 165);
+  }
+  .bg-color-pink {
+     background-color: rgb(252, 186, 197);
+  }
+  .bg-color-gray {
+     background-color: #444444;
+  }
+ .bg-color-pinklight {
+    background-color: rgb(221, 218, 218) ;
+    
+   /* background-color: rgb(226, 241, 236);*/
+ }
+ .bg-color-violet {
+   background-color: rgb(239, 234, 240);
+}
+ .color-brown {
+    color: brown;
+ }
+ .color-gray {
+    color: rgb(82, 80, 80);
+ }
+ .bg-color-verdeagua{
+   background-color: rgb(236, 241, 239);
+}
+.bg-color-white {
+   background-color: rgb(249, 250, 221);
+}
+ 
+ 

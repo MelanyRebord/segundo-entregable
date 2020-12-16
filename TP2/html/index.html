@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="../bootstrap-4.5.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styleTabla.css">
+    
+</head>
+<body>
+      <!--ENCABEZADO-->
+      <div class="container-global" style="overflow-x: hidden">
+        <div class="row">
+         <div class="col sm-3 md-6 lg-9 xl-12 p-0">  
+          <nav class="navbar navbar-expand-lg navbar-light fondo ">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " style="margin-left: 35%; font-size: 22px; height: 70px; " id="navbarNavAltMarkup">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link ml-2 " href="SeccionInicio.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-2 " href="SeccionMujer.html">Mujer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-2 " href="SeccionContacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-2 " href="index.html">Productos</a>
+              </ul>
+            </div>
+          </nav>
+        </nav>
+     
+    
+    <!-- Título -->
+    <h1 id="titulo" class="margen text-aling-center">Nuestras predas</h1>
+
+    <!-- Toggle Bar - Filtros -->
+    <div class="contenedorFiltro ">
+        <!-- on/off -->
+        <span class="" style="margin-left: 80px;"> Activar filtro
+          <label  class="switch botonToggle ">
+          <input type="checkbox"> 
+          <span id="switch" class="slider round"></span>
+          </label>
+          <select name="select" id="filtroTipo" class="containerSelect hidden"> </select>
+        </span>
+   </div>
+
+    <!-- Tabla  -->
+    <div class="container-table">
+    <table id="table"class="table table-striped">
+      </table>
+    </div>
+      <div class="botonTabla" id="divBoton"></div>
+
+      <!-- Overlay -->
+    <div id="overlay" class="overlay display-none">
+      <!-- modal -->
+          <!-- card -->
+          <div class="card card-total bordesRecuadro">
+             <!-- Progress bar  -->
+             <div class="progress">
+              <div id="progressBar" class="progress-bar  progress-bar-striped progress-bar-animated inicio transicion" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" ></div>
+            </div>
+             <!-- Titulo modal y botones-->
+              <h2 id="tituloModal"class="card-title texto margen"></h2>
+              <div id="mensajeModal" class="texto margen"></div>
+              <div class="botonesModal">
+                  <button id="btn-si" class="bg-color"></button>
+                  <button id="btn-no" class="bg-color"></button>
+              </div>
+          </div>
+  </div>
+
+  <div class="footer fondo" style="text-align: center;">
+    <p class="especial">Redes
+     <a href="https://www.facebook.com/" class="card-link">https://www.facebook.com/</a>
+     <a href="https://www.instagram.com/" class="card-link">https://www.instagram.com/</a>
+     <p class="especial">Copyright © Marta Colaneri 2020 - Tandil, Buenos Aires - Argentina</p>
+    </p>
+    </div>  
+     </div>
+        
+       
+<!-- JS, Popper.js, and jQuery -->
+<script src="../bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+ <!-- Javascript -->
+ <script type="text/javascript" src="../js/element.js"></script>
+  <script type="text/javascript" src="../js/utilities.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
+  
+</body>
+</html>
