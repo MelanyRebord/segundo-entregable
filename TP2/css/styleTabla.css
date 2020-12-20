@@ -5,7 +5,7 @@ html {
 } 
 
 
-.margen{
+.margin{
     margin: 2%;
 }
 
@@ -57,7 +57,7 @@ table {
 }
 
 
-.card-total {
+.card-Modal {
     margin: auto;
     background-color: white;
     color: black;
@@ -74,7 +74,7 @@ table {
     visibility: hidden;
 }
 
-/* Animacion de la progress bar*/
+/* Progress bar*/
 .inicio{
     width: 0%;
 }
