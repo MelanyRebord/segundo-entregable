@@ -50,8 +50,6 @@ botonEliminar.innerHTML= "Eliminar";
 botonEliminar.classList.add("botonesTabla");
     trEl.appendChild(botonEliminar);
     botonEliminar.addEventListener("click",(event)=>{event.preventDefault();showModalEliminar(event.path[1])});
-    
-
 }
 
 // BOTON AGRAGAR
@@ -71,7 +69,7 @@ botonEliminar.classList.add("botonesTabla");
     mensaje.innerHTML= "¿Esta seguro de que quiere eliminar la fila?";
     aceptar.innerHTML= "Aceptar";
     cancelar.innerHTML= "Cancelar";
-    aceptar.addEventListener("click",()=>{eliminarFila ( fila)}, { once: true });
+    aceptar.addEventListener("click",()=>{eliminarFila (fila)}, { once: true}, true);
     cancelar.addEventListener("click",cancelarModal, { once: true });
     overlayEl.classList.remove('display-none');
 
